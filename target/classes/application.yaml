@@ -1,0 +1,12 @@
+server:
+  error:
+    include-stacktrace: always
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:8889/car?createDatabaseIfNotExist=true
+    username: root
+    password: root
